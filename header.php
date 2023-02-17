@@ -33,12 +33,7 @@ if(isset($message)){
             ?>
             <a href="cart.php"> <i class="fas fa-shopping-cart"></i> <span>(<?php echo $cart_rows_number; ?>)</span> </a>
          </div>
-   
          <a href="logout.php" class="delete-btn">logout</a>
-       
-
       </div>
-    
    </div>
-
 </header>
