@@ -15,7 +15,6 @@ if(isset($message)){
    <div class="header-2">
       <div class="flex">
          <a href="home.php" class="logo">Bookly.</a>
-         <p>Ecommerce</p>
          <nav class="navbar">
             <a href="home.php">home</a>
             <a href="about.php">about</a>
@@ -34,12 +33,7 @@ if(isset($message)){
             ?>
             <a href="cart.php"> <i class="fas fa-shopping-cart"></i> <span>(<?php echo $cart_rows_number; ?>)</span> </a>
          </div>
-   
          <a href="logout.php" class="delete-btn">logout</a>
-       
-
       </div>
-    
    </div>
-
 </header>
